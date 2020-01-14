@@ -43,5 +43,23 @@ end
 def number_to_short_month_name(num)
   if num == 1
     return "Jan"
+  elsif num == 4
+    return "Apr"
+elsif num == 10
+  return "Oct"
   end
 end
+
+def volume_of_cube(length)
+  return length * 3
+end
+
+def volume_of_sphere(radius)
+  return (3.14159) * (radius ** 3) * 4 / 3
+end
+
+def fahrenheit_to_celsius(temp)
+  return (temp - 32) * (5/9)
+end
+
+#(32°F − 32) × 5/9 = 0°C
